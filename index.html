@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
     <title>Product Landing Page</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    <h1>Hello World</h1>    
-</body>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <header id="header">
+      <div>
+        <img id="header-img" src="./product-landing-page-logo.png" alt="logo" />
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#shop">Shop</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="product-video">
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+        title="Roman Carnival Overture Op. 9 for Five Trombones"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- form section -->
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <input
+        type="email"
+        id="email"
+        placeholder="enter your email address..."
+      />
+      <input type="submit" id="submit" value="submit" placeholder="submit" />
+    </form>
+
+    <section id="about"></section>
+    <section id="shop"></section>
+    <section id="contact"></section>
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script src="js/index.js"></script>
+  </body>
 </html>
